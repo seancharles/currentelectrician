@@ -1,0 +1,70 @@
+.cms-frequently-asked-questions .faq { padding: 40px 0;}
+.cms-terms-and-conditions .term_cond { padding: 40px 0;}
+.cms-shipping .ship_page { padding: 40px 0; }
+.cms-return .return_policy { padding: 40px 0;}
+.cms-return .return_policy li { list-style-type: none; }
+.cms-policy .policy_page {padding: 40px 0;}
+.cms-about-us .about_us_page {padding: 40px 0;}
+.joint-div{display:flex} .joint-div .cart-div .action.tocart{font-size: 12px;padding: 8px 10px;}.joint-div .cart-div .action.tocart:hover {color: #fff;background: #f15922;}
+.header-menu-content .horizontal-menu-wrap .horizontal-menu li { padding: 0px 20px !important; }
+#blog_post .post-item .post-categories a { display: none; }
+/*.category-products.block-content .product-items .owl-stage-outer .owl-stage { width: 100% !important; }*/
+/*.category-products.block-content .product-items .owl-stage-outer .owl-item.active {width: 18% !important; margin-right: 20px !important;}*/
+.recently-viewed .product-item-photo:hover img {outline: none;}
+.block-static .category-list-top { min-height: 254px !important; }
+.recently-viewed .category-products {padding: 25px;}
+.recently-viewed .product-item .product-item-name{min-height: 40px;}
+.recently-viewed .product-item button.action{width: 100%;}
+.recently-viewed .actions-secondary, .recently-viewed button.action.tocompare {margin-top: 5px;}
+.qs-option-image{ text-align: center; }.qs-option-image img {width: 100%;max-width: 100%;max-height: 150px;}body .searchsuite-autocomplete{left: 0;width: 100%;}.product-item .sold-progress, .product-item .sold-qty{display:none;}
+.footer-social-sectoin {margin-top: 20px;}.social-links{font-size: 25px;}
+@media only screen and (min-width: 768px){
+	.catalog-product-view #product_addtocart_form .box-tocart .fieldset-add{width: 100%;}
+ 	.catalog-product-view #product_addtocart_form #product-addtocart-button { width: 400px; }
+ 	.catalog-product-view #product_addtocart_form .box-tocart .actions{ width: 100%; }
+}
+@media only screen and (max-width: 767px){
+ .recently-viewed .product-item button.action{font-size: 15px;}
+}
+.sidebar .block-title i.cat{display: block; float: right;margin-top: 3px;cursor: pointer;font-size: 2.2rem;font-weight: bold;}
+.sidebar .block.block-nav .block-content1{display: none;}
+
+/* 14 may 2019 brands css */
+
+.mpbrand-index-index #block-feature-brand-heading {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 20px 0;
+    display: inline-block;
+}
+.mpbrand-index-index .block-brand-feature .relate-content{
+	min-height: 240px;
+	padding: 5px 10px !important;
+}
+.mpbrand-index-index .block.block-brand-list {
+    display: none;
+}
+#block-brand-thumbnail-container {
+    border-bottom: none;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.catalog-category-view #block-brand-thumbnail-container{
+	display:none;
+}
+.catalog-product-view .product-brand-logo {
+    display: none;
+}
+.brand-container .block-content img{
+	max-width:100%;
+}
+
+/* --- end --- */
+
+.btn-search-mobile > i{
+	color: #0f75bc;
+}
+.user-topbar i{
+	color: #0f75bc;
+}
